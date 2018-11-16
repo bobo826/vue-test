@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Nav from '../components/common/nav/Nav'
+import Nav from '../components/common/nav/Nav'// 引入导航组件
 export default {
   name: 'Index',
   components: {
@@ -14,7 +14,7 @@ export default {
   },
   data () {
     return {
-      nav_config: [
+      nav_config: [ // 配置导航元信息：
         { nav_id: 0, nav_path: '/home', nav_name: 'Home' },
         { nav_id: 1, nav_path: '/mine', nav_name: 'Mine' },
         { nav_id: 2, nav_path: '/login', nav_name: 'Login' }

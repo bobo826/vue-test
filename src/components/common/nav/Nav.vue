@@ -10,7 +10,7 @@
 export default {
   name: 'Nav',
   props: {
-    nav_config: {
+    nav_config: { // 配置导航元信息：{ nav_id: 0, nav_path: '/home', nav_name: 'Home' }
       type: Array
     },
     click: {
