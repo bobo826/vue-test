@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Home',
   data () {
@@ -35,6 +36,9 @@ export default {
       ],
       timer: null
     }
+  },
+  components:{
+    EvilIcons
   },
   methods: {
     start () {
@@ -84,5 +88,8 @@ li {
 }
 .active {
   background: #42b983;
+}
+.cui-topBar2 {
+  display: none;
 }
 </style>
